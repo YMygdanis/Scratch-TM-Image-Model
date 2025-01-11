@@ -11,7 +11,6 @@ This extension allows you to:
 
 By combining Scratch's simplicity with machine learning's power, this extension bridges the gap between coding and AI in an educational setting.
 
----
 
 ## Features
 The TM Image Model with Camera extension offers the following capabilities:
@@ -28,7 +27,6 @@ Once the camera is started and the model is loaded, the extension predicts the c
 ### Event-Driven Programming
 With the `when model detects` block, you can trigger events in your Scratch projects based on specific class detections. This makes creating interactive games, educational tools, and creative projects possible.
 
----
 
 ## How to Use
 1. **Add the Extension**:
@@ -46,29 +44,24 @@ With the `when model detects` block, you can trigger events in your Scratch proj
 5. **Stop the Camera**:
    When you are done, use the `stop camera` block to deactivate the camera. This also resets the detected class and probability to default values.
 
----
 
 ## Technical Details
 The extension relies on [TensorFlow.js](https://www.tensorflow.org/js) and the [Teachable Machine Image Library](https://github.com/googlecreativelab/teachablemachine-community) for model predictions. It ensures compatibility with all models trained on Teachable Machine's image classification system.
 
----
 
 ## Troubleshooting
 - If the model does not load, please make sure that the URL points to a valid Teachable Machine image model and that you have internet access.
 - If the camera does not start, verify that your browser has permission to access the camera and that no other applications are using it.
 - Ensure that your device supports `getUserMedia`, which is required for camera functionality.
 
----
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute it.
 
----
 
 ## Contributions
 Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to submit an issue or a pull request on GitHub.
 
----
 
 ## Contact
 For inquiries or support, please reach out to `your-email@example.com`.
